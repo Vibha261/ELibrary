@@ -1,0 +1,65 @@
+body{
+    background: url(./Images/BookCourt_iStock-690358116-e1515177346323.jpg);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+}
+form{
+    width: 400px;
+    box-shadow: 0 0 40px black;
+    align-self: flex-start;
+}
+.form_title{
+    font-style: italic;
+    font-weight: bold;
+    color: brown;
+}
+#login-error{
+    color: crimson;
+}
+input[type=text]{
+    padding: 6px 15px;
+    border-radius: 4px;
+    float: center;
+}
+input[type=password]{
+    padding: 6px 15px;
+    border-radius: 4px;
+    float: center;
+}
+input[type=tel]{
+    padding: 6px 15px;
+    border-radius: 4px;
+    float: center;
+}
+input[type=submit]{
+    padding: 6px 15px;
+    border-radius: 4px;
+    float: center;
+    background-color: dodgerblue;
+    font-family: 'Footlight MT Light';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    font-size: 30px;
+    background: black;
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 30px;
+}

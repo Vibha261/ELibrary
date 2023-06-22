@@ -1,0 +1,115 @@
+body{
+    background: url(./Images/gh.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 30px;
+}
+.trans{
+    background: black;
+    opacity: 0.9;
+    color:rgb(255, 255, 255);
+    font-family: 'Footlight MT Light';
+    text-align: center;
+}
+header{
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+}
+nav{
+    font-size: large;
+    font-weight: lighter;
+    width: fit-content;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px wheat;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    padding: 0 50px;
+    display: inline;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+nav ul li a:active{
+    color: red;
+}
+p{
+    font-size: 30px;
+}
+h1{
+    color: rgb(206, 241, 154);
+    font-size: 50px;
+    font-style: italic;
+}
+button{
+    background-color: rgb(168, 1, 245);
+    color: floralwhite;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+#add{
+    background-color: rgb(8, 250, 8);
+}
+#remove{
+    background-color: rgb(255, 67, 67);
+}
+table th{
+    font-size: 25px;
+}
+table td{
+    font-size: 20px;
+    color: lemonchiffon;
+    font-style: italic;
+}
+form{
+    width: 400px;
+    box-shadow: 0, 0, 40px, yellow;
+    background-color: yellow;
+    align-self: flex-start;
+    color: black;
+    border-radius: 12px;
+    margin-left: 400px;
+}
+input[type=text] , textarea{
+    padding: 6px 15px;
+    border-radius: 4px;
+    float: center;
+}
+input[type=submit]{
+    padding: 6px 15px;
+    border-radius: 4px;
+    float: center;
+    background-color: dodgerblue;
+    font-family: 'Footlight MT Light';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgb(13, 134, 53);
+}
+footer{
+    font-size: 30px;
+    background: black;
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 30px;
+}
